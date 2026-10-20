@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registrar Fórmulacion</title>
+    </head>
+    <body>
+        <h1>Registro de formulaciones</h1>
+
+<p>Ingrese los datos de la formulación del perfume.</p>
+
+<form action="registrar-formula" method="post">
+
+    <label for="nombre">Nombre del perfume:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br><br>
+
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="0.01" step="any" required>
+    <br><br>
+
+    <label for="fechaElaboracion">Fecha de elaboración:</label>
+    <input type="date" id="fechaElaboracion" name="fechaElaboracion" required>
+    <br><br>
+
+    <label for="responsable">Responsable:</label>
+    <input type="text" id="responsable" name="responsable" required>
+    <br><br>
+
+    <button type="submit">Registrar formulación</button>
+
+</form>
+    </body>
+        
+</html
